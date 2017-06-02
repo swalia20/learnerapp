@@ -13,9 +13,9 @@
 
     function getStates() {
         return [{
-            state: 'dashboard',
+            state: 'portal.dashboard',
             config: {
-                url: '/dashboard',
+                url: '',
                 templateUrl: 'app/dashboard/dashboard.html',
                 controller: 'DashboardController',
                 controllerAs: 'vm',

@@ -22,16 +22,16 @@
                 title: 'Inprotech'
             }
         }, {
-            state: 'register',
+            state: 'anonymous.register',
             config: {
-                url: '/register',
+                url: 'register',
                 templateUrl: 'app/user/anonymous/register.html',
                 title: 'Register'
             }
         }, {
-            state: 'login',
+            state: 'anonymous.login',
             config: {
-                url: '/login',
+                url: 'login',
                 templateUrl: 'app/user/anonymous/login.html',
                 title: 'Login'
             }
